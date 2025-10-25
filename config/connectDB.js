@@ -29,8 +29,6 @@ async function initializeDatabase() {
     console.log("Creating new MongoDB connection...");
     const opts = {
       // Mongoose 6+ defaults these; leaving them here is fine for clarity
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
       serverSelectionTimeoutMS: 10000,
     };
     cached.promise = mongoose.connect(uri, opts).then((mongooseInstance) => {
