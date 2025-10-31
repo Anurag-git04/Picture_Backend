@@ -5,7 +5,6 @@ It handles user authentication, image uploads & management, and serves the front
 
 ## Live API (if applicable)  
 [https://picture-backend.vercel.app](https://picture-backend.vercel.app)  
-*(Update the URL if your deployment differs)*
 
 ## Features  
 - JWT‐based authentication (signup, login, token refresh)  
